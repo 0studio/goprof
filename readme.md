@@ -1,7 +1,7 @@
 # Demo
 
 ```
-goprof.Init(myLogErrorFunc,myLogInfoFunc)
+goprof.Init(fmt.Println,fmt.Println)
 } else if value.Type == defs.REDIS_QUEUE_TYPE_DEBUG_PRINT_STACK {
 goprof.WriteGoroutineStack()
 } else if value.Type == defs.REDIS_QUEUE_TYPE_DEBUG_PROF_HEAP {
